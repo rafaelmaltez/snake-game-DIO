@@ -20,6 +20,10 @@ function createSnake() {
     }
 }
 
+document.addEventListener('keydown', update);
+
+function update(event){};
+
 function startGame() {
     criarBG();
     createSnake();
